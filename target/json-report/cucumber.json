@@ -1,0 +1,212 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-24T15:10:14.597Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5509061100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CommonSteps.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login;login-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 305084600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CommonSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34979000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already at the homepage",
+            "match": {
+              "location": "stepDefinitions.CommonSteps.user_is_already_at_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1880412500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in using Username \"mercury\" and Password \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 29
+                },
+                {
+                  "val": "mercury",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.CommonSteps.user_logs_in_using_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21450400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "page title is \"Login: Mercury Tours\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login: Mercury Tours",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.CommonSteps.page_title_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/Resources/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@AllTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-24T15:10:22.471Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4106948000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CommonSteps.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Toolbar links functionality",
+        "description": "",
+        "id": "toolbar-links;toolbar-links-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 312806000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CommonSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already at the homepage",
+            "match": {
+              "location": "stepDefinitions.CommonSteps.user_is_already_at_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17984200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "homepage title is \"Welcome: Mercury Tours\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome: Mercury Tours",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.CommonSteps.homepage_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258712100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "toolbar link is visible",
+            "match": {
+              "location": "stepDefinitions.CommonSteps.toolbar_link_is_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllTest"
+          }
+        ]
+      }
+    ],
+    "name": "Toolbar links",
+    "description": "",
+    "id": "toolbar-links",
+    "keyword": "Feature",
+    "uri": "file:src/test/Resources/Features/ToolbarLinks.feature",
+    "tags": [
+      {
+        "name": "@AllTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
